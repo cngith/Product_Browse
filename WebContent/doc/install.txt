@@ -1,0 +1,10 @@
+在服务器上添加"商品浏览工程"的步骤
+把工程文件夹置于指定文件夹,如:"/mydata/web/pb2016/"(最新版本的工程文件夹可从云盘下载,压缩文件"pb_clear.tar.gz");
+修改数据库脚本,确定新版本数据库名,如:`product_browse_2016`(数据库脚本文件可从云盘下载"pb_st.sql","pb_data.sql");
+导入脚本新建数据库;
+修改工程中的配置文件"dbConfig.properties",确保连接到新数据库;
+修改tomcat的配置文件"server.xml"
+<Context  path="/pb2016" docBase="/mydata/web/pb2016/WebContent"></Context>
+
+上传图片文件夹：WebContent/upload
+上传图片时程序会自动在upload下创建image文件夹

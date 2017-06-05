@@ -1,0 +1,17 @@
+
+# 忽略Idea的配置目录
+/.idea/
+# 编译过程中出现的，我们用不着跟踪它们的版本。
+*.[oa]
+
+*.~
+dbConfig.properties
+
+# 忽略upload目录
+upload/
+
+
+# Windows:
+Thumbs.db
+ehthumbs.db
+Desktop.ini

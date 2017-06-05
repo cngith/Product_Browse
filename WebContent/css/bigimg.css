@@ -1,0 +1,8 @@
+.box{width:512px; height:512px; margin-left:auto; margin-right:auto; background:url(/study/image/loading.gif) no-repeat center; text-align:center; overflow:hidden; position:relative;}
+.box img{vertical-align:middle;}
+.vline{display:inline-block; height:100%; width:0; vertical-align:middle;}
+.prev, .next{width:50%; _height:2000px; background-image:url(about:blank); position:absolute; top:0; bottom:0; outline:none;}
+.prev{cursor:url(pic_prev.cur), auto; left:0;}
+.next{cursor:url(pic_next.cur), auto; right:0;}
+
+.random{display:block; width:120px; height:36px; margin-left:auto; margin-right:auto;}
