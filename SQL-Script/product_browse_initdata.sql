@@ -18,6 +18,10 @@
 -- Dumping data for table `tb_department`
 --
 
+-- CentOS下导入脚本命令 source /root/mywork/project/Product_Browse/SQL-Script/product_browse_initdata.sql;
+
+-- Windows下导入脚本命令 source E:/Program/source/product_data_2/pt2_SQL/product_browse_create.sql;
+
 LOCK TABLES `tb_department` WRITE;
 /*!40000 ALTER TABLE `tb_department` DISABLE KEYS */;
 INSERT INTO `tb_department` VALUES (null,'系统管理部');

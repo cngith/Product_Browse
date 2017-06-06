@@ -15,9 +15,16 @@
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
+-- CentOS下导入脚本命令 source /root/mywork/project/Product_Browse/SQL-Script/product_browse_create.sql;
+
+-- Windows下导入脚本命令 source E:/Program/JavaSpace/Product_Browse/product_browse_create.sql;
+
 DROP DATABASE `product_browse_2017` IF EXISTS;
 CREATE DATABASE IF NOT EXISTS `product_browse_2017`;
 USE `product_browse_2017`;
+
+-- GRANT ALL PRIVILEGES ON `product_browse_2017`.* TO 'admin'@'localhost';
+-- GRANT SELECT, INSERT, UPDATE, DELETE ON `product_browse_2017`.* TO 'tuser'@'localhost' WITH GRANT OPTION;
 --
 -- Table structure for table `tb_commodity`
 --
